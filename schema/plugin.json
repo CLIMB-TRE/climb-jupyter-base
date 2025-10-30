@@ -1,0 +1,8 @@
+{
+  "jupyter.lab.shortcuts": [],
+  "title": "climb-jupyter-base",
+  "description": "climb-jupyter-base settings.",
+  "type": "object",
+  "properties": {},
+  "additionalProperties": false
+}
