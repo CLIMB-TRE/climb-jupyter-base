@@ -3,7 +3,6 @@
 [![Github Actions Status](https://github.com/CLIMB-TRE/climb-jupyter-base/workflows/Build/badge.svg)](https://github.com/CLIMB-TRE/climb-jupyter-base/actions/workflows/build.yml)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/CLIMB-TRE/climb-jupyter-base/main?urlpath=lab)
 
-
 Base functionality for CLIMB JupyterLab Extensions.
 
 This extension is composed of a Python package named `climb_jupyter_base`
