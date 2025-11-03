@@ -4110,6 +4110,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"bootstrap@npm:^5.3.7":
+  version: 5.3.8
+  resolution: "bootstrap@npm:5.3.8"
+  peerDependencies:
+    "@popperjs/core": ^2.11.8
+  checksum: 6813254a1140646ca53f33f2d0c5fbf7cf544dabba06cddc061243acf4ec71fadff348860ed4623e1b486c05c151d7807da017dc473e748add0926d2cf9f1a04
+  languageName: node
+  linkType: hard
+
 "brace-expansion@npm:^1.1.7":
   version: 1.1.12
   resolution: "brace-expansion@npm:1.1.12"
@@ -4304,6 +4313,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"climb-jupyter-base-component@npm:^0.1.0":
+  version: 0.1.0
+  resolution: "climb-jupyter-base-component@npm:0.1.0"
+  dependencies:
+    bootstrap: ^5.3.7
+  peerDependencies:
+    react: ^17.0.2
+    react-dom: ^17.0.2
+  checksum: 4d8452f59a9d20cbb7c4f4e4ce1a0354c8071711f75fc3a10a309ff263f3595d94a35d72911a557f66e7de43151083820365fe4190a7d602b424a66310c6686d
+  languageName: node
+  linkType: hard
+
 "climb-jupyter-base@workspace:.":
   version: 0.0.0-use.local
   resolution: "climb-jupyter-base@workspace:."
@@ -4320,6 +4341,7 @@ __metadata:
     "@types/react-addons-linked-state-mixin": ^0.14.22
     "@typescript-eslint/eslint-plugin": ^6.1.0
     "@typescript-eslint/parser": ^6.1.0
+    climb-jupyter-base-component: ^0.1.0
     css-loader: ^6.7.1
     eslint: ^8.36.0
     eslint-config-prettier: ^8.8.0
