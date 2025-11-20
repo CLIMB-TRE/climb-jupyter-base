@@ -3,6 +3,7 @@
     "version": "0.1.0",
     "description": "Base functionality for CLIMB JupyterLab Extensions.",
     "keywords": [
+        "climb",
         "jupyter",
         "jupyterlab",
         "jupyterlab-extension"
@@ -61,7 +62,7 @@
         "@jupyterlab/coreutils": "^6.0.0",
         "@jupyterlab/services": "^7.0.0",
         "@jupyterlab/settingregistry": "^4.0.0",
-        "climb-jupyter-base-component": "^0.1.0"
+        "climb-jupyter-base-component": "^0.2.2"
     },
     "devDependencies": {
         "@jupyterlab/builder": "^4.0.0",

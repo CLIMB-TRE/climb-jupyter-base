@@ -4313,15 +4313,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"climb-jupyter-base-component@npm:^0.1.0":
-  version: 0.1.0
-  resolution: "climb-jupyter-base-component@npm:0.1.0"
+"climb-jupyter-base-component@npm:^0.2.2":
+  version: 0.2.2
+  resolution: "climb-jupyter-base-component@npm:0.2.2"
   dependencies:
     bootstrap: ^5.3.7
   peerDependencies:
-    react: ^17.0.2
-    react-dom: ^17.0.2
-  checksum: 4d8452f59a9d20cbb7c4f4e4ce1a0354c8071711f75fc3a10a309ff263f3595d94a35d72911a557f66e7de43151083820365fe4190a7d602b424a66310c6686d
+    react: ^17.0.1 || ^18.2.0
+    react-dom: ^17.0.1 || ^18.2.0
+  checksum: f574f66856e9bcb5e5a8f9a0d6aa40a3035e344499a464c0a5908b4a56c2df571fa43923af1c309d5588ef38fa6011e49f26d4fffb1535fdd654f6e96077c165
   languageName: node
   linkType: hard
 
@@ -4341,7 +4341,7 @@ __metadata:
     "@types/react-addons-linked-state-mixin": ^0.14.22
     "@typescript-eslint/eslint-plugin": ^6.1.0
     "@typescript-eslint/parser": ^6.1.0
-    climb-jupyter-base-component: ^0.1.0
+    climb-jupyter-base-component: ^0.2.2
     css-loader: ^6.7.1
     eslint: ^8.36.0
     eslint-config-prettier: ^8.8.0
