@@ -1,9 +1,13 @@
 [build-system]
-requires = ["hatchling>=1.5.0", "jupyterlab>=4.0.0,<5", "hatch-nodejs-version>=0.3.2"]
+requires = [
+    "hatchling>=1.5.0",
+    "jupyterlab>=3.6.1,<5",
+    "hatch-nodejs-version>=0.3.2",
+]
 build-backend = "hatchling.build"
 
 [project]
-name = "climb_jupyter_base"
+name = "climb-jupyter-base"
 readme = "README.md"
 license = { file = "LICENSE" }
 requires-python = ">=3.9"
@@ -22,21 +26,17 @@ classifiers = [
     "Programming Language :: Python :: 3.12",
     "Programming Language :: Python :: 3.13",
 ]
-dependencies = [
-    "jupyter_server>=2.4.0,<3"
-]
+dependencies = ["jupyter_server>=2.4.0,<3"]
 dynamic = ["version", "description", "authors", "urls", "keywords"]
 
 [project.optional-dependencies]
-dev = [
-    "jupyterlab>=4",
-]
+dev = ["jupyterlab>=4"]
 test = [
     "coverage",
     "pytest",
     "pytest-asyncio",
     "pytest-cov",
-    "pytest-jupyter[server]>=0.6.0"
+    "pytest-jupyter[server]>=0.6.0",
 ]
 
 [tool.hatch.version]
@@ -83,7 +83,7 @@ version_cmd = "hatch version"
 before-build-npm = [
     "python -m pip install 'jupyterlab>=4.0.0,<5'",
     "jlpm",
-    "jlpm build:prod"
+    "jlpm build:prod",
 ]
 before-build-python = ["jlpm clean:all"]
 
